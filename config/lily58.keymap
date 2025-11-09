@@ -74,6 +74,7 @@
         };
 
         layer_3 {
+            display-name = "Layer3";
             bindings = <
 &trans  &trans      &trans      &trans         &trans      &trans                        &trans         &trans      &trans        &trans    &trans         &trans
 &trans  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)     &kp LS(N4)  &kp LS(N4)                    &kp EQUAL      &kp GRAVE   &kp LS(SEMI)  &kp SEMI  &kp LS(EQUAL)  &trans
@@ -84,6 +85,7 @@
         };
 
         layer_4 {
+            display-name = "Layer4";
             bindings = <
 &trans  &trans    &trans    &trans         &trans          &trans                    &trans         &trans  &kp BSPC  &kp LS(N9)  &kp LS(N0)  &trans
 &trans  &trans    &trans    &trans         &kp KP_NUMLOCK  &trans                    &kp LS(N8)     &kp N7  &kp N8    &kp N9      &kp MINUS   &trans
@@ -94,6 +96,7 @@
         };
 
         layer_5 {
+            display-name = "Layer5";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
