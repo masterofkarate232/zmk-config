@@ -38,6 +38,11 @@
             bindings = <&tog 0>;
             key-positions = <10 11>;
         };
+
+        Onehanddel {
+            bindings = <&kp DEL>;
+            key-positions = <0 3>;
+        };
     };
 
     behaviors {
