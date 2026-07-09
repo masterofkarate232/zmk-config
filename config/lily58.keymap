@@ -39,7 +39,7 @@
             key-positions = <10 11>;
         };
 
-        Onehandel {
+        Onehanddel {
             bindings = <&kp DEL>;
             key-positions = <0 3>;
         };
