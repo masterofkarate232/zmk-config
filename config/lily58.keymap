@@ -142,9 +142,9 @@
             bindings = <
 &trans         &trans      &trans      &trans      &trans         &trans                           &trans     &trans         &trans        &trans      &trans           &trans
 &kp LC(LS(S))  &kp ESCAPE  &kp K_BACK  &kp K_FIND  &kp K_FORWARD  &kp INSERT                       &kp PG_UP  &kp HOME       &kp UP_ARROW  &kp END     &kp LC(P)        &trans
-&kp LC(S)      &kp LALT    &kp LGUI    &sk LSHFT   &sk LCTRL      &kp LC(A)                        &kp PG_DN  &kp LEFT       &kp DOWN      &kp RIGHT   &kp DELETE       &trans
+&kp LC(S)      &kp LALT    &kp LGUI    &sk LSHFT   &sk LCTRL      &kp LC(A)                        &kp PG_DN  &kp LEFT       &kp DOWN      &kp RIGHT   &kp DELETE       &kp LSHFT
 &trans         &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)      &kp LC(B)   &trans    &trans     &trans     &kp BACKSPACE  &kp TAB       &kp C_MENU  &kp PRINTSCREEN  &trans
-                                       &trans      &trans         &trans      &trans    &kp ENTER  &kp LSHFT  &kp LCTRL      &to 0
+                                       &trans      &trans         &trans      &trans    &kp ENTER  &trans     &kp LCTRL      &to 0
             >;
         };
 
