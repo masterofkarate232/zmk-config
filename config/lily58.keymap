@@ -207,7 +207,7 @@
         Showtake_addTake: Showtake_addTake {
             compatible = "zmk,behavior-mod-morph";
             label = "SHOWTAKE_ADDTAKE";
-            bindings = <&kp LS(LA(U))>, <&kp LS(LA(T))>;
+            bindings = <&kp LA(LC(U))>, <&kp LS(LA(T))>;
 
             #binding-cells = <0>;
             mods = <(MOD_LALT)>;
@@ -222,9 +222,9 @@
             mods = <(MOD_LALT)>;
         };
 
-        delPoint_delTime: delPoint_delTime {
+        delenv_delTime: delenv_delTime {
             compatible = "zmk,behavior-mod-morph";
-            label = "DELPOINT_DELTIME";
+            label = "DELENV_DELTIME";
             bindings = <&kp LC(DEL)>, <&kp LC(LS(DEL))>;
 
             #binding-cells = <0>;
@@ -265,6 +265,22 @@
 
             #binding-cells = <0>;
             mods = <(MOD_LALT)>;
+        };
+    };
+
+    macros {
+        e_up: e_up {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp UP_ARROW>;
+            label = "E_UP";
+        };
+
+        e_down: e_down {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp DOWN_ARROW>;
+            label = "E_DOWN";
         };
     };
 
@@ -372,11 +388,11 @@
 
         ableton {
             bindings = <
-&to 0              &kp LC(N1)       &kp LC(N2)        &kp LC(N3)          &kp LC(N4)         &kp LA(LC(NUMBER_5))                                &kp LC(N6)  &kp LC(N7)     &kp LC(N8)  &kp LC(N9)  &kp LC(N0)  &kp ESCAPE
-&tog_ses_arrange   &browser_bounce  &loop_selectloop  &dup_newclip        &quant_settings    &undo_redo                                          &kp O       &kp F9         &kp F10     &kp F11     &kp F12     &kp B
-&delPoint_delTime  &split_join      &rename_render    &nAud_nMidi         &find_findsimilar  &group_ungroup                                      &kp S       &kp F5         &kp F6      &kp F7      &kp F8      &kp UP_ARROW
-&togFrz_Cls_plug   &quant_settings  &insTime_copTime  &groclip_pasteTime  &copy_paste        &Showtake_addTake     &kp LC(A)    &fullscr_2ndWin  &kp C       &kp F1         &kp F2      &kp F3      &kp F4      &kp DOWN
-                                                      &plus_ctrlshft      &kp MINUS          &kp LALT              &kp SPACE    &kp LEFT_SHIFT   &kp LC(N)   &kp LC(LS(S))  &kp LC(S)
+&to 0             &kp LC(N1)       &kp LC(N2)        &kp LC(N3)          &kp LC(N4)         &kp LC(N5)                                       &kp LC(N6)  &kp LC(N7)     &kp LC(N8)  &kp LC(N9)  &kp N0   &kp ESCAPE
+&tog_ses_arrange  &browser_bounce  &loop_selectloop  &dup_newclip        &mt F A            &undo_redo                                       &kp O       &kp F9         &kp F10     &kp F11     &kp F12  &kp B
+&delenv_delTime   &mt LCTRL LC(E)  &rename_render    &nAud_nMidi         &find_findsimilar  &group_ungroup                                   &kp S       &kp F5         &kp F6      &kp F7      &kp F8   &e_up
+&togFrz_Cls_plug  &quant_settings  &insTime_copTime  &groclip_pasteTime  &copy_paste        &Showtake_addTake  &kp LC(A)    &fullscr_2ndWin  &kp C       &kp F1         &kp F2      &kp F3      &kp F4   &e_down
+                                                     &plus_ctrlshft      &kp MINUS          &kp LALT           &kp SPACE    &kp LEFT_SHIFT   &kp LC(N)   &kp LC(LS(S))  &kp LC(S)
             >;
 
             label = "ableton";
