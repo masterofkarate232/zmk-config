@@ -95,6 +95,177 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
         };
+
+        find_findsimilar: find_findsimilar {
+            compatible = "zmk,behavior-mod-morph";
+            label = "FIND_FINDSIMILAR";
+            bindings = <&kp LC(F)>, <&kp LC(LS(F))>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        copy_paste: copy_paste {
+            compatible = "zmk,behavior-mod-morph";
+            label = "COPY_PASTE";
+            bindings = <&kp LC(C)>, <&kp LC(V)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        quant_settings: quant_settings {
+            compatible = "zmk,behavior-mod-morph";
+            label = "QUANT_SETTINGS";
+            bindings = <&kp LC(U)>, <&kp LC(LS(U))>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        undo_redo: undo_redo {
+            compatible = "zmk,behavior-mod-morph";
+            label = "UNDO_REDO";
+            bindings = <&kp LC(Z)>, <&kp LC(Y)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        group_ungroup: group_ungroup {
+            compatible = "zmk,behavior-mod-morph";
+            label = "GROUP_UNGROUP";
+            bindings = <&kp LC(G)>, <&kp LC(LS(G))>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        dup_newclip: dup_newclip {
+            compatible = "zmk,behavior-mod-morph";
+            label = "DUP_NEWCLIP";
+            bindings = <&kp LC(D)>, <&kp LS(LC(M))>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        rename_render: rename_render {
+            compatible = "zmk,behavior-mod-morph";
+            label = "RENAME_RENDER";
+            bindings = <&kp LC(R)>, <&kp LS(LC(R))>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        loop_selectloop: loop_selectloop {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LOOP_SELECTLOOP";
+            bindings = <&kp LC(L)>, <&kp LC(LS(L))>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        browser_bounce: browser_bounce {
+            compatible = "zmk,behavior-mod-morph";
+            label = "BROWSER_BOUNCE";
+            bindings = <&kp LC(LA(B))>, <&kp LC(B)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        tog_ses_arrange: tog_ses_arrange {
+            compatible = "zmk,behavior-mod-morph";
+            label = "TOG_SES_ARRANGE";
+            bindings = <&kp LA(NUMBER_1)>, <&kp LA(NUMBER_2)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        fullscr_2ndWin: fullscr_2ndWin {
+            compatible = "zmk,behavior-mod-morph";
+            label = "FULLSCR_2NDWIN";
+            bindings = <&kp F11>, <&kp LC(LS(W))>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        nAud_nMidi: nAud_nMidi {
+            compatible = "zmk,behavior-mod-morph";
+            label = "NAUD_NMIDI";
+            bindings = <&kp LC(T)>, <&kp LC(LS(T))>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        Showtake_addTake: Showtake_addTake {
+            compatible = "zmk,behavior-mod-morph";
+            label = "SHOWTAKE_ADDTAKE";
+            bindings = <&kp LS(LA(U))>, <&kp LS(LA(T))>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        togFrz_Cls_plug: togFrz_Cls_plug {
+            compatible = "zmk,behavior-mod-morph";
+            label = "TOGFRZ_CLS_PLUG";
+            bindings = <&kp LS(LA(LC(F)))>, <&kp LC(LA(P))>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        delPoint_delTime: delPoint_delTime {
+            compatible = "zmk,behavior-mod-morph";
+            label = "DELPOINT_DELTIME";
+            bindings = <&kp LC(DEL)>, <&kp LC(LS(DEL))>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        split_join: split_join {
+            compatible = "zmk,behavior-mod-morph";
+            label = "SPLIT_JOIN";
+            bindings = <&kp LC(E)>, <&kp LC(J)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        insTime_copTime: insTime_copTime {
+            compatible = "zmk,behavior-mod-morph";
+            label = "INSTIME_COPTIME";
+            bindings = <&kp LC(I)>, <&kp LS(LC(C))>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        groclip_pasteTime: groclip_pasteTime {
+            compatible = "zmk,behavior-mod-morph";
+            label = "GROCLIP_PASTETIME";
+            bindings = <&kp LA(LC(E))>, <&kp LS(LC(V))>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
+
+        plus_ctrlshft: plus_ctrlshft {
+            compatible = "zmk,behavior-mod-morph";
+            label = "PLUS_CTRLSHFT";
+            bindings = <&kp LS(EQUAL)>, <&kp LC(LEFT_SHIFT)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LALT)>;
+        };
     };
 
     keymap {
@@ -114,7 +285,7 @@
 &kp TAB    &kp B   &kp L   &kp D   &kp W   &kp Z                            &apos_under  &kp F   &kp O     &kp U         &kp J     &kp SEMI
 &kp LCTRL  &kp N   &kp R   &kp T   &kp S   &kp G                            &kp Y        &kp H   &kp A     &kp E         &kp I     &comm_quest
 &kp LSHFT  &kp Q   &kp X   &kp M   &kp C   &kp V   &kp ENTER    &caps_word  &kp K        &kp P   &kp DOT   &dash_dbquot  &slsh_lt  &mt RGUI BSLH
-                           &mo 7   &mo 5   &mo 2   &kp SPACE    &kp LSHFT   &mo 5        &to 2   &kp LALT
+                           &to 7   &mo 5   &mo 2   &kp SPACE    &kp LSHFT   &mo 5        &to 2   &kp LALT
             >;
         };
 
@@ -191,7 +362,7 @@
         mouse {
             display-name = "Mouse";
             bindings = <
-&trans  &trans     &trans          &msc SCRL_UP    &trans           &trans                                    &trans          &trans          &msc SCRL_UP    &trans           &trans     &trans
+&to 0   &trans     &trans          &msc SCRL_UP    &trans           &trans                                    &trans          &trans          &msc SCRL_UP    &trans           &trans     &trans
 &trans  &trans     &mkp MB2        &mmv MOVE_UP    &mkp MB1         &trans                                    &trans          &mkp MB1        &mmv MOVE_UP    &mkp MB2         &trans     &trans
 &trans  &kp LCTRL  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans                                    &trans          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp LCTRL  &trans
 &trans  &trans     &trans          &msc SCRL_DOWN  &trans           &trans          &kp LA(F4)    &kp LA(F4)  &trans          &trans          &msc SCRL_DOWN  &trans           &trans     &trans
@@ -201,11 +372,11 @@
 
         ableton {
             bindings = <
-&trans         &kp LC(N1)  &kp LC(N2)  &kp LC(N3)     &kp LC(N4)  &kp LALT                         &trans  &trans  &trans  &trans  &trans  &trans
-&kp LC(LA(E))  &kp LC(R)   &kp LC(G)   &kp LS(LC(M))  &kp LC(U)   &kp LS(LC(U))                    &trans  &trans  &trans  &trans  &trans  &trans
-&kp LC(T)      &kp LC(S)   &kp LC(L)   &kp LC(D)      &kp LC(F)   &kp LS(LC(F))                    &trans  &trans  &trans  &trans  &trans  &trans
-&kp LS(LC(T))  &kp LC(Z)   &kp LC(Y)   &kp LC(C)      &kp LC(V)   &kp LS(LC(R))  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                       &trans         &trans      &trans         &trans    &trans  &trans  &trans  &trans
+&to 0              &kp LC(N1)       &kp LC(N2)        &kp LC(N3)          &kp LC(N4)         &kp LA(LC(NUMBER_5))                                &kp LC(N6)  &kp LC(N7)     &kp LC(N8)  &kp LC(N9)  &kp LC(N0)  &kp ESCAPE
+&tog_ses_arrange   &browser_bounce  &loop_selectloop  &dup_newclip        &quant_settings    &undo_redo                                          &kp O       &kp F9         &kp F10     &kp F11     &kp F12     &kp B
+&delPoint_delTime  &split_join      &rename_render    &nAud_nMidi         &find_findsimilar  &group_ungroup                                      &kp S       &kp F5         &kp F6      &kp F7      &kp F8      &kp UP_ARROW
+&togFrz_Cls_plug   &quant_settings  &insTime_copTime  &groclip_pasteTime  &copy_paste        &Showtake_addTake     &kp LC(A)    &fullscr_2ndWin  &kp C       &kp F1         &kp F2      &kp F3      &kp F4      &kp DOWN
+                                                      &plus_ctrlshft      &kp MINUS          &kp LALT              &kp SPACE    &kp LEFT_SHIFT   &kp LC(N)   &kp LC(LS(S))  &kp LC(S)
             >;
 
             label = "ableton";
