@@ -403,7 +403,7 @@
 &tog_ses_arrange  &browser_bounce  &loop_selectloop  &dup_newclip        &hold_tap F A      &undo_redo                                    &kp O       &hold_tap LC(F9) F9  &hold_tap LC(F10) F10  &hold_tap LC(F11) F11  &hold_tap LC(F12) F12  &kp B
 &delenv_delTime   &join_split      &rename_render    &nAud_nMidi         &find_findsimilar  &group_ungroup                                &kp S       &kp F5               &kp F6                 &kp F7                 &kp F8                 &kp UP_ARROW
 &togFrz_Cls_plug  &quant_settings  &insTime_copTime  &groclip_pasteTime  &copy_paste        &enter_addTake  &kp LC(A)    &fullscr_2ndWin  &kp C       &kp F1               &kp F2                 &kp F3                 &kp F4                 &kp DOWN_ARROW
-                                                     &plus_ctrlshft      &kp MINUS          &kp LALT        &kp SPACE    &kp LEFT_SHIFT   &kp LC(N)   &kp LC(LS(S))        &kp LC(S)
+                                                     &kp LEFT_SHIFT      &kp LCTRL          &kp LALT        &kp SPACE    &kp LEFT_SHIFT   &kp LC(N)   &kp LC(LS(S))        &kp LC(S)
             >;
 
             label = "ableton";
