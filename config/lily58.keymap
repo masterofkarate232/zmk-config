@@ -45,12 +45,12 @@
 
         mouse-lh {
             bindings = <&to 6>;
-            key-positions = <51 52>;
+            key-positions = <53 42>;
         };
 
         mouse-rh {
             bindings = <&to 6>;
-            key-positions = <55 56>;
+            key-positions = <54 43>;
         };
 
         bluetooth {
@@ -411,11 +411,11 @@
 
         bluetooth {
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4                                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4                                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans         &trans         &trans         &trans         &trans                                           &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans         &trans         &trans         &trans         &trans         &kp LA(SYSREQ)    &kp LA(SYSREQ)  &trans  &trans  &trans  &trans  &trans  &trans
-                                          &kp R          &kp E          &kp I          &to 0             &to 0           &kp S   &kp U   &kp B
+&bt BT_CLR  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans         &trans         &trans         &trans         &trans                           &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans         &trans         &trans         &trans         &trans         &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                          &trans         &trans         &trans         &to 0     &to 0   &trans  &trans  &trans
             >;
 
             label = "bluetooth";
@@ -423,11 +423,11 @@
 
         hrmods {
             bindings = <
-&trans  &trans    &trans    &trans     &trans     &trans                    &trans  &trans     &trans     &trans    &trans    &trans
-&trans  &trans    &trans    &trans     &trans     &trans                    &trans  &trans     &trans     &trans    &trans    &trans
-&trans  &kp LALT  &kp LGUI  &kp LSHFT  &kp LCTRL  &trans                    &trans  &kp LCTRL  &kp LSHFT  &kp LGUI  &kp LALT  &trans
-&trans  &trans    &trans    &trans     &trans     &trans  &trans    &trans  &trans  &trans     &trans     &trans    &trans    &trans
-                            &trans     &trans     &trans  &trans    &trans  &trans  &trans     &trans
+&trans  &trans    &trans    &trans     &trans     &trans                    &trans           &trans     &trans     &trans    &trans    &trans
+&trans  &trans    &trans    &trans     &trans     &trans                    &kp R            &kp E      &kp I      &kp S     &kp U     &kp B
+&trans  &kp LALT  &kp LGUI  &kp LSHFT  &kp LCTRL  &trans                    &kp PRINTSCREEN  &kp LCTRL  &kp LSHFT  &kp LGUI  &kp LALT  &trans
+&trans  &trans    &trans    &trans     &trans     &trans  &trans    &trans  &trans           &trans     &trans     &trans    &trans    &trans
+                            &trans     &trans     &trans  &trans    &trans  &trans           &trans     &trans
             >;
 
             label = "hrmods";
