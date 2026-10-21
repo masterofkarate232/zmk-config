@@ -390,7 +390,7 @@
             display-name = "Mouse";
             bindings = <
 &to 0   &trans     &trans          &msc SCRL_UP    &trans           &trans                                    &trans          &trans          &msc SCRL_UP    &trans           &trans     &trans
-&trans  &trans     &mkp MB2        &mmv MOVE_UP    &mkp MB1         &trans                                    &trans          &mkp MB1        &mmv MOVE_UP    &mkp MB2         &trans     &trans
+&trans  &mkp MB4   &mkp MB2        &mmv MOVE_UP    &mkp MB1         &mkp MB5                                  &mkp MB4        &mkp MB1        &mmv MOVE_UP    &mkp MB2         &mkp MB5   &trans
 &trans  &kp LCTRL  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans                                    &trans          &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp LCTRL  &trans
 &trans  &trans     &trans          &msc SCRL_DOWN  &trans           &trans          &kp LA(F4)    &kp LA(F4)  &trans          &trans          &msc SCRL_DOWN  &trans           &trans     &trans
                                    &trans          &kp LEFT_ALT     &kp LEFT_SHIFT  &to 0         &to 0       &kp LEFT_SHIFT  &kp LALT        &trans
