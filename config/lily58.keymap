@@ -45,12 +45,12 @@
 
         mouse-lh {
             bindings = <&to 6>;
-            key-positions = <53 42>;
+            key-positions = <28 27 26 25>;
         };
 
         mouse-rh {
             bindings = <&to 6>;
-            key-positions = <54 43>;
+            key-positions = <31 32 33 34>;
         };
 
         bluetooth {
@@ -411,7 +411,7 @@
 
         bluetooth {
             bindings = <
-&trans  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4                             &trans  &trans  &trans  &trans  &trans  &trans
+&to 0   &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4                             &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4                            &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans         &trans         &trans         &trans         &bt BT_CLR                               &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans         &trans         &trans         &trans         &trans         &trans    &bt BT_CLR_ALL  &trans  &trans  &trans  &trans  &trans  &trans
