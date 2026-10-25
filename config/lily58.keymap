@@ -30,7 +30,7 @@
 
         qwerty {
             bindings = <&tog 1>;
-            key-positions = <23 35>;
+            key-positions = <8 11>;
         };
 
         graphite {
