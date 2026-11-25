@@ -21,7 +21,7 @@ manifest:
     - name: nice-view-gem #new entry
       remote: m165437 #new entry
 #      revision: main #new entry
-      revision: main
+      revision: v0.3.0
     - name: nice-view-elemental
       remote: kevinpastor
 #      revision: main
