@@ -13,7 +13,7 @@ manifest:
     - name: zmk
       remote: zmkfirmware
  #     revision: main
-      revision: @v0.3.0
+      revision: v0.3.0
       import: app/west.yml
 #    - name: nice-view-gem-layer-name
 #      remote: masterofkarate232
@@ -21,11 +21,11 @@ manifest:
     - name: nice-view-gem #new entry
       remote: m165437 #new entry
 #      revision: main #new entry
-      revision: @v0.3.0
+      revision: main
     - name: nice-view-elemental
       remote: kevinpastor
 #      revision: main
-      revision: @v0.3.0
+      revision: main
 
   self:
     path: config   
