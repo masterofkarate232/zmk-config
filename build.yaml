@@ -18,6 +18,7 @@ include:
     
   - board: nice_nano//zmk
     shield: lily58_right nice_view_adapter nice_view_gem
+
     
   - board: nice_nano//zmk
     shield: settings_reset
