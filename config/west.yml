@@ -4,6 +4,11 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: masterofkarate232
       url-base: https://github.com/masterofkarate232
+    - name: m165437 #new entry
+      url-base: https://github.com/M165437 #new entry
+    - name: kevinpastor
+      url-base: https://github.com/kevinpastor
+    
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -11,6 +16,12 @@ manifest:
       import: app/west.yml
     - name: nice-view-gem-layer-name
       remote: masterofkarate232
+      revision: main
+    - name: nice-view-gem #new entry
+      remote: m165437 #new entry
+      revision: main #new entry
+    - name: nice-view-elemental
+      remote: kevinpastor
       revision: main
 
   self:
