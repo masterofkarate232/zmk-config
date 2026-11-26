@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/M165437 #new entry
     - name: kevinpastor
       url-base: https://github.com/kevinpastor
+    - name: infely                             
+      url-base: https://github.com/infely      
     
   projects:
     - name: zmk
@@ -24,8 +26,10 @@ manifest:
       revision: v0.3.0
     - name: nice-view-elemental
       remote: kevinpastor
-#      revision: main
       revision: main
+    - name: nice-view-battery                
+      remote: infely                         
+      revision: main                         
 
   self:
     path: config   
